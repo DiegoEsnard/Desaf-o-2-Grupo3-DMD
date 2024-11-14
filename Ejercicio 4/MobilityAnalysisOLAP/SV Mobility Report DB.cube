@@ -1,0 +1,238 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="e12f0f23-ac96-47e3-9f6b-325689da8188" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>SV Mobility Report DB</ID>
+  <Name>SV Mobility Report DB</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="3e51b5b2-83a2-4fdd-827a-bcd68abb4fcc">
+      <ID>2020 SV Sub Region 1</ID>
+      <Name>2020 SV Sub Region 1</Name>
+      <DimensionID>2020 SV Sub Region 1</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="9ec6d6fa-66a0-4d9f-9b7f-a78d24f35396">
+          <AttributeID>Sub Region 1</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="1b924bd0-a042-40ac-a088-54f863dfeee9">
+      <ID>2020 SV Date</ID>
+      <Name>2020 SV Date</Name>
+      <DimensionID>2020 SV Date</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="755d6fa8-50d9-47ad-9258-b01d63a58583">
+          <AttributeID>Date</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="d7f37431-30bc-4342-ae8b-4501bf05fc45">
+      <ID>2020 SV Region Mobility Report Cleaned v2</ID>
+      <Name>2020 SV Region Mobility Report Cleaned v2</Name>
+      <DimensionID>2020 SV Region Mobility Report Cleaned v2</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="dc0df6d8-541c-4734-a161-9f462a0331af">
+          <AttributeID>Sub Region 1</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="e0d56e78-e9c6-4265-8db1-1966bfe50746">
+      <ID>2020 SV Region Mobility Report Cleaned v2</ID>
+      <Name>2020 SV Region Mobility Report Cleaned v2</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="e123a616-d3dc-4f01-b5cb-6248da2fe342">
+          <ID>Retail And Recreation Percent Change From Baseline</ID>
+          <Name>Retail And Recreation Percent Change From Baseline</Name>
+          <Source dwd:design-time-name="86db5ae5-ab7a-45d4-9c09-85b77991855a">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="95433dca-101f-42be-9852-1d26ed9ca324">
+              <TableID>dbo_2020_SV_Region_Mobility_Report_Cleaned_v2</TableID>
+              <ColumnID>retail_and_recreation_percent_change_from_baseline</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="75dfe5c4-71a6-470c-b57b-a0613ed7f633">
+          <ID>Grocery And Pharmacy Percent Change From Baseline</ID>
+          <Name>Grocery And Pharmacy Percent Change From Baseline</Name>
+          <Source dwd:design-time-name="d508e1d4-09a8-4c94-b5a6-e660d9f51668">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="44827a7f-f47b-40e2-9e5d-0ddd1412779c">
+              <TableID>dbo_2020_SV_Region_Mobility_Report_Cleaned_v2</TableID>
+              <ColumnID>grocery_and_pharmacy_percent_change_from_baseline</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="de0e6732-9751-4b74-a9c3-48de62f37c88">
+          <ID>Parks Percent Change From Baseline</ID>
+          <Name>Parks Percent Change From Baseline</Name>
+          <Source dwd:design-time-name="97d1bc37-1451-486e-977f-1e4e558b15a5">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="e25835ce-9a2f-4506-ada1-bf97f5ca16f4">
+              <TableID>dbo_2020_SV_Region_Mobility_Report_Cleaned_v2</TableID>
+              <ColumnID>parks_percent_change_from_baseline</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="a9aa5c92-d9ae-4304-ae61-52ccbf5048fb">
+          <ID>Transit Stations Percent Change From Baseline</ID>
+          <Name>Transit Stations Percent Change From Baseline</Name>
+          <Source dwd:design-time-name="d61aa127-fde6-4f4e-a832-31b65a551da6">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="e82df69e-a759-41f8-bf78-b01bd66a9a00">
+              <TableID>dbo_2020_SV_Region_Mobility_Report_Cleaned_v2</TableID>
+              <ColumnID>transit_stations_percent_change_from_baseline</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="2a0452ae-fe66-4f98-9568-75aa94edccae">
+          <ID>Workplaces Percent Change From Baseline</ID>
+          <Name>Workplaces Percent Change From Baseline</Name>
+          <Source dwd:design-time-name="9a21b426-9c11-4370-9aee-ed7b97bd8fd4">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="5d968e21-87c1-432e-a56f-d2f3ff3fb435">
+              <TableID>dbo_2020_SV_Region_Mobility_Report_Cleaned_v2</TableID>
+              <ColumnID>workplaces_percent_change_from_baseline</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="a8f3c111-3427-4798-954f-70d1c64982f9">
+          <ID>Residential Percent Change From Baseline</ID>
+          <Name>Residential Percent Change From Baseline</Name>
+          <Source dwd:design-time-name="df2febc4-2ccd-41e7-8517-3c3699665315">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="4a8f4282-cd08-4ff1-8cc1-d5d67b55f0ea">
+              <TableID>dbo_2020_SV_Region_Mobility_Report_Cleaned_v2</TableID>
+              <ColumnID>residential_percent_change_from_baseline</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="afe11504-ce32-41ea-bf92-28932a41808c">
+          <ID>2020 SV Region Mobility Report Cleaned v2 Count</ID>
+          <Name>2020 SV Region Mobility Report Cleaned v2 Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="2393fa86-f6be-4dfd-973d-bddc3518d006">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="27cb2016-e620-41e3-a059-fbd24da31e5e">
+              <TableID>dbo_2020_SV_Region_Mobility_Report_Cleaned_v2</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="28e73936-515c-4f15-b036-64be11412ad4">
+          <CubeDimensionID>2020 SV Sub Region 1</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="d3db551d-ff2a-40ca-89e2-ec01df043a25">
+              <AttributeID>Sub Region 1</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="870540de-74d6-471a-b229-5a6c9b5a0a21">
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="0d160a99-b4ee-4ffc-b4b0-cdf45084a3e4">
+                    <TableID>dbo_2020_SV_Region_Mobility_Report_Cleaned_v2</TableID>
+                    <ColumnID>sub_region_1</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="66960c33-5661-4954-bfba-bcf59d1317a8">
+          <CubeDimensionID>2020 SV Date</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="7e74f745-1515-4374-ae16-d28258356289">
+              <AttributeID>Date</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="9ba5fe79-4734-43ed-a867-074f4edec16c">
+                  <DataType>Date</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="586ea939-b7f0-48a1-9108-f7d9ac4f95a8">
+                    <TableID>dbo_2020_SV_Region_Mobility_Report_Cleaned_v2</TableID>
+                    <ColumnID>date</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="90f6c5fc-859e-44f7-b871-b8b3f585ed53">
+          <CubeDimensionID>2020 SV Region Mobility Report Cleaned v2</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="d55e0088-d658-4ff2-845a-7db276d034c9">
+              <AttributeID>Sub Region 1</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="82167e4e-0ebe-429a-b3f1-bf90b26f845e">
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="1bf82ca8-54d2-4602-8f95-0e891d3520de">
+                    <TableID>dbo_2020_SV_Region_Mobility_Report_Cleaned_v2</TableID>
+                    <ColumnID>sub_region_1</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="00436c8b-1210-42eb-bf75-bdccc63a3c30">
+                  <DataType>Date</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="080cde5b-4686-4905-9e99-c8adb35e6dac">
+                    <TableID>dbo_2020_SV_Region_Mobility_Report_Cleaned_v2</TableID>
+                    <ColumnID>date</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="81566157-6b26-4f4e-838b-d936a63bec75">
+    <DataSourceViewID>SV Mobility Report DB</DataSourceViewID>
+  </Source>
+</Cube>

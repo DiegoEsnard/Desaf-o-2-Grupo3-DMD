@@ -1,0 +1,75 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>MobilityAnalysisOLAP</Database>
+    <Server>DIEGOSPC\MSSQL_SSIS</Server>
+    <ConnectionString>Data Source=DIEGOSPC\MSSQL_SSIS;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>gCAn403jdvNBRhrGoflV0krD/oU=10/30/2024 8:55:03 PM10/30/2024 1:32:39 PM</TimeStamp>
+        <ID>
+          <String>Mobility Report DB</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>4MzU5ZVDs7/jvwwxJ8Ihp0Mrs4c=10/30/2024 1:45:30 PM10/30/2024 1:45:29 PM</TimeStamp>
+        <ID>
+          <String>SV Mobility Report DB</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>hD8d8UezOAccW5rrDqDpWOn0uKo=10/30/2024 2:26:48 PM10/30/2024 2:26:48 PM</TimeStamp>
+        <ID>
+          <String>2020 SV Sub Region 1</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>QQoZNEwaYpWVQx1MqD8rsB01yWY=10/30/2024 2:27:16 PM10/30/2024 2:27:15 PM</TimeStamp>
+        <ID>
+          <String>2020 SV Date</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>FYSktX61FZW71zS79e21BB+d+vE=10/30/2024 2:30:44 PM10/30/2024 2:30:44 PM</TimeStamp>
+        <ID>
+          <String>2020 SV Region Mobility Report Cleaned v2</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>+l2DDwwq8q/snrOBWPNZHQl53WU=10/30/2024 2:30:44 PM10/30/2024 2:30:44 PMhUcEj0sFEn2iMAffjdJCpqh6qB0=10/30/2024 2:30:44 PM10/30/2024 2:30:44 PM</TimeStamp>
+        <ID>
+          <String>SV Mobility Report DB</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>epsGpyzz9h/cMVKrDZ6gXJE6YVs=10/30/2024 1:31:03 PM10/30/2024 1:31:02 PM</TimeStamp>
+      <ID>
+        <String>MobilityAnalysisOLAP</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2024-10-31T02:55:13.426667Z</LastDeployed>
+</DeploymentSnapshot>

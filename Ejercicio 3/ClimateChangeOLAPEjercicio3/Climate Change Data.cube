@@ -1,0 +1,349 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="c70d4979-be7d-4e1e-847a-8ed785e8f72e" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Climate Change Data</ID>
+  <Name>Climate Change Data</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="4" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-10014" scrolltop="-6694" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="35586" y="18838" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Global Annual Mean Surface Air Temperature Change" left="6020" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3069" height="2302" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000fd0b0000fe080000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Global Annual Mean Surface Air Temperature Change" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Global Monthly Mean Surface Temperature Change" left="12089" top="0" logicalid="2" controlid="2" masterid="0" hint1="0" hint2="0" width="3000" height="3149" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b00004d0c0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Global Monthly Mean Surface Temperature Change" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Temperature anomalies across various latitudes and geographical regions" left="20" top="0" logicalid="3" controlid="3" masterid="0" hint1="0" hint2="0" width="3000" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Temperature anomalies across various latitudes and geographical regions" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-10014</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-6694</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="2106bcce-7d51-4446-96f4-73b9a7787f2c">
+      <ID>Global Annual Mean Surface Air Temperature Change</ID>
+      <Name>Global Annual Mean Surface Air Temperature Change</Name>
+      <DimensionID>Global Annual Mean Surface Air Temperature Change</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="4a9c7608-3aea-4164-a234-db08b471610d">
+          <AttributeID>Year</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="3e962c69-890c-4ba0-8198-038de03f7b78">
+      <ID>Global Monthly Mean Surface Temperature Change</ID>
+      <Name>Global Monthly Mean Surface Temperature Change</Name>
+      <DimensionID>Global Monthly Mean Surface Temperature Change</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="2c6d55b3-2955-4956-ad90-770836252a6c">
+          <AttributeID>Year Month</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="e6531f92-9779-4f01-9c2c-5eadd793bac7">
+      <ID>Temperature Anomalies Across Various Latitudes And Geographical Regions</ID>
+      <Name>Temperature Anomalies Across Various Latitudes And Geographical Regions</Name>
+      <DimensionID>Temperature Anomalies Across Various Latitudes And Geographical Regions</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="639202d2-f6ac-4196-9082-dbcd18a73037">
+          <AttributeID>Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8636d581-421c-4288-baea-1c08cb65ccba">
+          <AttributeID>Glob</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="1e61f6d3-aaf9-44b5-a17d-57a79927cc69">
+          <AttributeID>N Hem</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="4929a8c3-2888-4fd9-85a6-0ccba206c4d9">
+          <AttributeID>S Hem</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="3f8a664d-2504-4a37-8f28-3aaa6f25cd7e">
+      <ID>Global Annual Mean Surface Air Temperature Change</ID>
+      <Name>Global Annual Mean Surface Air Temperature Change</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="64f1ff32-18bb-4cf5-a4c1-4a54b16d01b2">
+          <ID>Year</ID>
+          <Name>Year</Name>
+          <Source dwd:design-time-name="96a35fc6-1f17-41e4-9432-03569ddbda74">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="052025aa-1592-42b2-a337-d7f672ac5a97">
+              <TableID>dbo_Global_x0020_Annual_x0020_Mean_x0020_Surface_x0020_Air_x0020_Temperature_x0020_Change</TableID>
+              <ColumnID>Year</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="e11f41a0-00b6-4eef-bf1a-71073ff2f3b9">
+          <ID>No Smoothing</ID>
+          <Name>No Smoothing</Name>
+          <Source dwd:design-time-name="bbb5ef9d-45f2-497b-92ed-401dc3e9bf5b">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="c7ae1275-6a88-45b9-9b9e-988009bfd75a">
+              <TableID>dbo_Global_x0020_Annual_x0020_Mean_x0020_Surface_x0020_Air_x0020_Temperature_x0020_Change</TableID>
+              <ColumnID>No_Smoothing</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="4efffdd6-badd-40bd-b476-8599aceb848b">
+          <ID>Lowess 5</ID>
+          <Name>Lowess 5</Name>
+          <Source dwd:design-time-name="cd51795a-36d0-4fd1-a9af-e653e03d62d4">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="3afb0973-bfed-43b0-b9c2-4c25a348ec0f">
+              <TableID>dbo_Global_x0020_Annual_x0020_Mean_x0020_Surface_x0020_Air_x0020_Temperature_x0020_Change</TableID>
+              <ColumnID>Lowess_5</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="8d5c2737-033f-46ed-9212-7d8d2fc6b45a">
+          <CubeDimensionID>Global Annual Mean Surface Air Temperature Change</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="2f901542-1bdf-4604-b58d-75054cbd37a3">
+              <AttributeID>Year</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="3327ded8-6f6a-4a6e-aad0-2aa24ea700e1">
+                  <DataType>SmallInt</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="cfb9baa7-7180-481d-97ea-67274f3cec8e">
+                    <TableID>dbo_Global_x0020_Annual_x0020_Mean_x0020_Surface_x0020_Air_x0020_Temperature_x0020_Change</TableID>
+                    <ColumnID>Year</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="9cfc09e1-b2de-43b7-ba86-9c9622b7a1fc">
+      <ID>Global Monthly Mean Surface Temperature Change</ID>
+      <Name>Global Monthly Mean Surface Temperature Change</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="5d2393fe-1daa-475c-a608-24d34f1a1038">
+          <ID>Year Month</ID>
+          <Name>Year Month</Name>
+          <Source dwd:design-time-name="04cc10a6-93f4-440c-90d0-5f19a869b6f1">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="a6329757-84ad-4142-91ed-aebd730c3844">
+              <TableID>dbo_Global_x0020_Monthly_x0020_Mean_x0020_Surface_x0020_Temperature_x0020_Change</TableID>
+              <ColumnID>Year_Month</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="a722e9a0-1b0c-453f-bb8c-dc31607c0412">
+          <ID>Station</ID>
+          <Name>Station</Name>
+          <Source dwd:design-time-name="600230fb-e9ae-4296-9704-296c8c7ebaa3">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="36f052ec-70eb-4b40-a2f9-04eaa0492670">
+              <TableID>dbo_Global_x0020_Monthly_x0020_Mean_x0020_Surface_x0020_Temperature_x0020_Change</TableID>
+              <ColumnID>Station</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="c515faee-3ad7-4015-9ee4-3aa7e5724834">
+          <ID>Land Ocean</ID>
+          <Name>Land Ocean</Name>
+          <Source dwd:design-time-name="5be6ff6d-0815-45c3-88ef-49a39ba7bf21">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="8860bfdc-2baf-4f46-a0c3-c27c20676cd1">
+              <TableID>dbo_Global_x0020_Monthly_x0020_Mean_x0020_Surface_x0020_Temperature_x0020_Change</TableID>
+              <ColumnID>Land_Ocean</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="9778e76d-ac73-4df0-be32-3028d762c3a6">
+          <ID>Land Only</ID>
+          <Name>Land Only</Name>
+          <Source dwd:design-time-name="6ce45676-f1e7-4f59-8820-905a63df17d5">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="21a38fa6-a975-4668-aefe-1801a9343248">
+              <TableID>dbo_Global_x0020_Monthly_x0020_Mean_x0020_Surface_x0020_Temperature_x0020_Change</TableID>
+              <ColumnID>Land_Only</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="f2efbb1a-087a-4d8a-88d5-84ff0cf098da">
+          <ID>Open Ocean</ID>
+          <Name>Open Ocean</Name>
+          <Source dwd:design-time-name="badc498a-4f7b-46a8-b782-57a63dba4763">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="f06f9073-466a-4e46-ba24-8839f5bd7d18">
+              <TableID>dbo_Global_x0020_Monthly_x0020_Mean_x0020_Surface_x0020_Temperature_x0020_Change</TableID>
+              <ColumnID>Open_Ocean</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="7dd3fbcf-66c6-40b8-8207-b158c4126745">
+          <CubeDimensionID>Global Monthly Mean Surface Temperature Change</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="84439624-5f47-4cd8-b33d-396c582f148a">
+              <AttributeID>Year Month</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="77360449-7226-4cfc-8a20-3271f4f08087">
+                  <DataType>Double</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="d9328789-14fb-446b-8aba-12d478a76b58">
+                    <TableID>dbo_Global_x0020_Monthly_x0020_Mean_x0020_Surface_x0020_Temperature_x0020_Change</TableID>
+                    <ColumnID>Year_Month</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="0e6128c4-5b76-46ba-a642-a0b5d3199695">
+      <ID>Temperature Anomalies Across Various Latitudes And Geographical Regions</ID>
+      <Name>Temperature Anomalies Across Various Latitudes And Geographical Regions</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="bd92e0fb-4f9b-4fcc-8ed1-8811a759f716">
+          <ID>Year - Temperature Anomalies Across Various Latitudes And Geographical Regions</ID>
+          <Name>Year - Temperature Anomalies Across Various Latitudes And Geographical Regions</Name>
+          <Source dwd:design-time-name="c6ce7953-b1e4-47e3-aaa0-e3b9a30cec8f">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="4fb1f4b6-7feb-4f51-822e-2f68fdd0c9c9">
+              <TableID>dbo_Temperature_x0020_anomalies_x0020_across_x0020_various_x0020_latitudes_x0020_and_x0020_geographical_x0020_regions</TableID>
+              <ColumnID>Year</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="b7720eda-a661-4fa9-8e8a-2cf3629dad79">
+          <ID>Temperature Anomalies Across Various Latitudes And Geographical Regions Count</ID>
+          <Name>Temperature Anomalies Across Various Latitudes And Geographical Regions Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="010d4b32-49ee-47fe-bfc0-3d47f710bc0a">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="c9a4ed1f-265d-42bb-b96e-03ff0c79a8c7">
+              <TableID>dbo_Temperature_x0020_anomalies_x0020_across_x0020_various_x0020_latitudes_x0020_and_x0020_geographical_x0020_regions</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="637820d6-9013-4dd4-bd45-9b1a6dc93b82">
+          <CubeDimensionID>Temperature Anomalies Across Various Latitudes And Geographical Regions</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="0e2b7ae8-9dc7-44b8-821a-7e72866a575f">
+              <AttributeID>Year</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="50d12275-2dcf-4fd5-baa1-1f87a7bee925">
+                  <DataType>SmallInt</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="db7654b2-3b51-41f8-bf0f-3961477b1062">
+                    <TableID>dbo_Temperature_x0020_anomalies_x0020_across_x0020_various_x0020_latitudes_x0020_and_x0020_geographical_x0020_regions</TableID>
+                    <ColumnID>Year</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="0eb9549b-0bf0-4441-a66b-2add9f1069a0">
+    <DataSourceViewID>Climate Change Data</DataSourceViewID>
+  </Source>
+</Cube>

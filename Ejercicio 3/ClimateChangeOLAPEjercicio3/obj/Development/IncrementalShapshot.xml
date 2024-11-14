@@ -1,0 +1,75 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>ClimateChangeOLAPEjercicio3</Database>
+    <Server>DIEGOSPC\MSSQL_SSIS</Server>
+    <ConnectionString>Data Source=DIEGOSPC\MSSQL_SSIS;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>9GOIZalIbVs2YRu3kn6Bh1X9Y6Y=11/8/2024 8:24:17 PM11/8/2024 8:24:17 PM</TimeStamp>
+        <ID>
+          <String>Climate Change Data</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>TfUNXwfgoB760hjX2yY5XaWJkm0=11/9/2024 1:55:14 PM11/9/2024 1:55:13 PM</TimeStamp>
+        <ID>
+          <String>Climate Change Data</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>1nSoc4t4AgJUbbaCEqNaEKxeLZ4=11/9/2024 3:27:27 PM11/9/2024 3:27:27 PM</TimeStamp>
+        <ID>
+          <String>Global Annual Mean Surface Air Temperature Change</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>IjisPzDqSL10O5PSByG1ttUcY54=11/9/2024 3:27:27 PM11/9/2024 3:27:27 PM</TimeStamp>
+        <ID>
+          <String>Global Monthly Mean Surface Temperature Change</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>+cp7ZHDBldjEfrwnfflAe90blOQ=11/9/2024 3:49:46 PM11/9/2024 3:27:27 PM</TimeStamp>
+        <ID>
+          <String>Temperature Anomalies Across Various Latitudes And Geographical Regions</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>7j5dtzLVbi86BXctSsP/xSOsJDc=11/9/2024 3:49:46 PM11/9/2024 3:27:27 PMF0qTmQPealwLUA8z335l66q9tkc=11/9/2024 3:27:27 PM11/9/2024 3:27:27 PM</TimeStamp>
+        <ID>
+          <String>Climate Change Data</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>xJje/K9P3NoQj0AJxPSLcfiVCTw=11/8/2024 8:22:56 PM11/8/2024 8:22:55 PM</TimeStamp>
+      <ID>
+        <String>ClimateChangeOLAPEjercicio3</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2024-11-09T22:15:21.386667Z</LastDeployed>
+</DeploymentSnapshot>

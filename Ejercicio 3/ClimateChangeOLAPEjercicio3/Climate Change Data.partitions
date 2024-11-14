@@ -1,0 +1,65 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="468c4e79-334b-48a2-828f-f020142e7f04" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Climate Change Data</ID>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>Global Annual Mean Surface Air Temperature Change</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="3198b3b0-bcf8-4bdc-a6cf-9538b4658e9e">
+          <ID>Global Annual Mean Surface Air Temperature Change</ID>
+          <Name>Global Annual Mean Surface Air Temperature Change</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="a963ffbd-ec8c-4687-a923-9ee548313d0f">
+            <DataSourceViewID>Climate Change Data</DataSourceViewID>
+            <TableID>dbo_Global_x0020_Annual_x0020_Mean_x0020_Surface_x0020_Air_x0020_Temperature_x0020_Change</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Global Monthly Mean Surface Temperature Change</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="c8bb3edf-e2b7-4f63-bbe3-2ee52307a115">
+          <ID>Global Monthly Mean Surface Temperature Change</ID>
+          <Name>Global Monthly Mean Surface Temperature Change</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="c57c9e22-5dce-427c-a6bb-9183b753f06c">
+            <DataSourceViewID>Climate Change Data</DataSourceViewID>
+            <TableID>dbo_Global_x0020_Monthly_x0020_Mean_x0020_Surface_x0020_Temperature_x0020_Change</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Temperature Anomalies Across Various Latitudes And Geographical Regions</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="1ef4d824-434f-49c1-a93e-9e6383fcc0b6">
+          <ID>Temperature Anomalies Across Various Latitudes And Geographical Regions</ID>
+          <Name>Temperature Anomalies Across Various Latitudes And Geographical Regions</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="4171285c-c582-401d-95a7-f2500bf061e4">
+            <DataSourceViewID>Climate Change Data</DataSourceViewID>
+            <TableID>dbo_Temperature_x0020_anomalies_x0020_across_x0020_various_x0020_latitudes_x0020_and_x0020_geographical_x0020_regions</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>

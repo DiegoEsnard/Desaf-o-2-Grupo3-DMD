@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "MobilityAnalysisOLAP", "MobilityAnalysisOLAP.dwproj", "{3B678D8D-2662-4D3B-88A9-93661E2CEC82}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3B678D8D-2662-4D3B-88A9-93661E2CEC82}.Development|Default.ActiveCfg = Development
+		{3B678D8D-2662-4D3B-88A9-93661E2CEC82}.Development|Default.Build.0 = Development
+		{3B678D8D-2662-4D3B-88A9-93661E2CEC82}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6A07DD81-A8C5-4DAC-8639-A986081292DD}
+	EndGlobalSection
+EndGlobal
